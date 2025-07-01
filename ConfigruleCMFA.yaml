@@ -58,6 +58,31 @@ proxies:
       headers:
         Host: id1.kereaktif.top
     udp: true
+  - name: AKUN3
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: rasywan
+    skip-cert-verify: true
+    sni: id1.kereaktif.top
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1.kereaktif.top
+    udp: true
+  - name: AKUN4
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: tam1722
+    skip-cert-verify: true
+    sni: iddk.dklongtong.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: iddk.dklongtong.xyz
 
 proxy-groups:
   - name: ID-X
@@ -67,6 +92,8 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
+      - AKUN3
+      - AKUN4
 
   - name: MIX-X
     type: fallback
@@ -75,6 +102,8 @@ proxy-groups:
     proxies:
       - AKUN1
       - AKUN2
+      - AKUN3
+      - AKUN4
       
   - name: IKLAN
     type: select
