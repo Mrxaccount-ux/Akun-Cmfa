@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: quiz.int.vidio.com
+    server: 104.18.53.42
     port: 443
     type: trojan
     password: tam1722
@@ -46,7 +46,7 @@ proxies:
         Host: iddk.dklongtong.xyz
     udp: true
   - name: AKUN2
-    server: quiz.int.vidio.com
+    server: 104.18.53.42
     port: 443
     type: trojan
     password: rasywan
